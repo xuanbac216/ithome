@@ -1,0 +1,126 @@
+body {
+	background: #fff;
+	color: #5f5f5f;
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+	text-align: center;
+	width:960px;
+	margin: auto;
+}
+a {
+	color: #0092dd;
+}
+.container-fluid {
+	width: 100%;
+}
+.container	{
+	width: 960px;
+}
+.clearfix {
+	clear: both;
+
+}
+.home {
+	margin: 0px;
+	margin-left: 150px;
+	margin-right: 50px;
+}
+header {
+height: 80px;
+}
+header .top-header {
+	height:50 px;
+	margin-top: 10px;
+}
+header .logo {
+	float: left;
+	margin-left: 20px;
+	margin-right: 80px;
+}
+ 
+header .form {
+	float: left;
+	border: solid 1px #e1e1e1;
+	border-radius: 5px;
+	padding: 6px;
+}
+header .form input {
+	border: none;
+}
+header .form input[type='submit'] {
+	text-indent: -9999px;
+	background: transparent url(..\sites\images\search.png) no-repeat;
+	width: 20px;
+	height: 19px;
+}
+header .menu {
+	height: 20px;
+	line-height:20px;
+	margin-top: 5px ;
+	margin: auto;
+	width: 100%;
+	
+}
+header .menu ul li {
+	float: left;
+	list-style-type:none;
+	position: relative; /*cố định li*/
+	text-align: cennter;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+header .menu ul li a {
+	color: #434343;
+	text-decoration: none;
+	border: solid 1px transparent;
+	display: inline-block;
+	
+	
+}
+header .menu ul li a span {
+	border-radius: 5px 5px 0 0;
+	border-top: solid 1px transparent;
+	padding: 14px;
+	display: inline-block;
+}
+header .menu ul li a:hover, header .menu ul li a.current {
+	border-bottom: solid 4px black;
+}
+header .menu ul li a:hover span, header .menu ul li a.current span {
+	border-top: solid 1px #fff;
+}
+
+.main {
+	border-top: solid 1px #e1e1e1;
+	border-bottom: solid 1px #e1e1e1;
+	overflow: hidden;
+	height: 500 px;
+	line-height: 500px;
+}
+.guide-container{
+	float: left;
+	width: 180px;
+	background: white;
+}
+
+.main-container {
+	
+	float: left;
+	width: 600px;
+	background: gray;
+	
+	
+}
+ .list-container {
+	float: left;
+	width: 180px;
+	background: white;
+ }
+footer {
+	background: gray;
+	border-top: solid 6px #efefef;
+	height: 90px;
+	color: #fff;
+}
