@@ -2,6 +2,9 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<title></title>
 </head>
@@ -9,31 +12,36 @@
 			<!-- HEADER -->
 	<header class="container-fluid">
 		<div class="container">
-			<div class="top-header">
-				<div class="logo">
-					<a href="index.html">
-						<img src="sites/images/logo.png" alt="logo" width="150px" height="50px"/>
-					</a>
+			<div class="row">
+				 <div class="col-xs-12">
+					<div class="logo"><a href="index.html"><img src="picture/logo.png" alt="logo" width="150px" height="50px"/></a></div>
+					<div class="form">
+						<form action="#" class="form-inline">
+							<input type="text" class="form-control" placeholder="Search">
+							<button type="button" class="btn btn-default" aria-label="Left Align">
+							  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+							</button>
+						</form>
+					</div>
+					<div>
+						<button type="button" class="btn btn-primary">Login</button>
+					</div>
 				</div>
-				<div class="form">
-					<form action="#">
-						<input type="text" placeholder="Search"  /> 
-						<input type="submit" />
-					</form>
-				</div>
-				<div>
-				</div>
-			</div> <!-- end of row 1 (.top-header) -->
 			
-			<div class="menu clearfix">
+			</div>
+			<div class="row menu home">
 				
-				<ul>
-					<li><a class="current home" href="# ">Home</a></li>
-					<li><a href="#">popular</a></li>
+				  <div class="col-md-6 col-md-offset-3">
+					<ul>
+					<li><a href="# ">Home</a></li>
+					<li><a class="current home" href="#">popular</a></li>
 					<li><a href="#">follow</a></li>
-					
-				</ul>
-			</div><!-- end of row 2 (.menu) -->
+					</ul>
+				  </div>
+		
+			</div>
+		</div>		
+			<!-- end of row 2 (.menu) -->
 		</div>
 	</header><!-- end of header -->
 	 
@@ -42,9 +50,30 @@
 		<!-- MAIN CONTENT -->
 	<section class="container-fluid">
 		<div class="container main">
-			<div class="guide-container"> left </div>
-			<div class="main-container">main</div>
-			<div class="list-container"> right </div>
+			<div class="col-xs-12">
+				<div class="col-md-4 guide-container"> left </div>
+			
+				<!-- CONTENT -->
+				<div class="col-md-4 main-container ">
+					<div class="page-header">
+					  <h2>Example page header <small>Subtext for header</small></h2>
+					  
+					</div>
+					<div class="media main-content">
+					  <div class="media-left media-middle">
+						<a href="#"><img class="media-object" src="..." alt="..."></a>
+					  </div>
+					  <div class="media-body">
+						<h4 class="media-heading">Bài viết số 1</h4>
+						<p> Giới thiệu bài viết </p>
+					  </div>
+					</div>
+				
+
+				</div>
+				<div class="col-md-4 list-container"> right </div>
+			</div>
+			
 		</div><!-- end of .container -->
 	</section><!-- end of .main .container-fluid -->
 	 
